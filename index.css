@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.full-width {
+  flex-basis: 100%;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  width: 100px;
+}
+
+.issn {
+  text-align: right;
+}
+
+header nav ul {
+  justify-content: space-evenly;
+  padding-inline-start: 0px;
+  list-style: none;
+}
+
+.featured-article {
+  background-image: linear-gradient(360deg, rgb(62, 29, 17), rgba(66, 48, 41, 0.07)), url('feature-article.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 3em;
+}
+
+article a {
+  display: block;
+}
+
+.card {
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 3em;
+}
+
+.card-1 {
+  background-image: linear-gradient(360deg, rgb(7, 78, 122), rgba(57, 80, 77, 0.07)), url('possum-1.jpeg');
+}
+
+.card-2 {
+  background-image: linear-gradient(360deg, rgb(7, 78, 122), rgba(57, 80, 77, 0.07)), url('possum-2.jpeg');
+}
+
+.blurb {
+  width: 33.33%;
+  padding: 2em;
+}
+
+.blurb img {
+  width: 100%;
+}
+
+.pill-btn {
+  border: 2px solid rgba(255,255,255,0.7);
+  color: #fff;
+  padding: 10px 25px;
+  display: inline-block;
+  border-radius: 25px;
+  background-color: transparent !important;
+  margin-top: 1.4em;
+}
+/*
+Pizza
+Whiskey
+rolling stones
+ */
