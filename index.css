@@ -77,6 +77,11 @@ article a {
   margin-top: 1.4em;
 }
 
+.faux-link {
+  border: none;
+  background-color: transparent;
+  color: #1414FF;
+}
 
  /* The Modal (background) */
 .modal {
