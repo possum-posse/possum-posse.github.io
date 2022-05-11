@@ -16,6 +16,7 @@ Array.from(openModalBtns).forEach(btn => {
 const closeModalBtns = document.getElementsByClassName("close-modal");
 
 Array.from(closeModalBtns).forEach(btn => {
+  console.log('newww', btn)
   // When the user clicks on <span> (x), close the modal
   btn.onclick = function() {
     const modal = this.parentElement.parentElement
