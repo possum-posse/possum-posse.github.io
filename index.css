@@ -36,6 +36,10 @@ header nav ul {
   padding: 3em;
 }
 
+.featured-article a {
+  color: #EAEAF0;
+}
+
 article a {
   display: block;
 }
@@ -44,6 +48,10 @@ article a {
   width: 50%;
   color: white;
   padding: 3em;
+}
+
+.card a {
+  color: #EAEAF0;
 }
 
 .card-1 {
