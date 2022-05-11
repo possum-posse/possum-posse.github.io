@@ -24,7 +24,7 @@
   text-align: right;
 }
 
-.header nav ul {
+.header nav ol {
   justify-content: space-evenly;
   padding-inline-start: 0px;
   list-style: none;
