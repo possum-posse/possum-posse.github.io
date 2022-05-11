@@ -8,7 +8,6 @@ Array.from(openModalBtns).forEach(btn => {
     // Get the modal
     const modal = this.nextElementSibling;
     modal.classList.add("show");
-    modal.setAttribute("aria-hidden", "false");
   }
 });
 
@@ -22,7 +21,6 @@ Array.from(closeModalBtns).forEach(btn => {
     const modal = this.parentElement.parentElement
     console.log('close', modal)
     modal.classList.remove("show");
-    this.parentElement.parentElement.setAttribute("aria-hidden", "true");
   }
 
 })
