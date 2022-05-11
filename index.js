@@ -18,6 +18,9 @@ const closeModalBtns = document.getElementsByClassName("close-modal");
 Array.from(closeModalBtns).forEach(btn => {
   // When the user clicks on <span> (x), close the modal
   btn.onclick = function() {
+    const modal = this.parentElement.parentElement
+    console.log('close', modal)
+    modal.classList.remove("show");
     this.parentElement.parentElement.setAttribute("aria-hidden", "true");
   }
 
